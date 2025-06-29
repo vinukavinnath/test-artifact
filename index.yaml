@@ -3,23 +3,34 @@ entries:
   payments:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-27T14:27:00.845199921+05:30"
+    created: "2025-06-29T16:04:31.827065433+05:30"
     description: A Helm chart for Kubernetes
     digest: c0f867de2841e99028e1b79b0615977ac676e951872601312818ad5eaa98e7e0
     name: payments
     type: application
     urls:
-    - https://vinukavinnath.github.io/test-artifact/payments-0.1.0.tgz
+    - payments-0.1.0.tgz
+    version: 0.1.0
+  python-rest-api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-29T16:04:31.827415309+05:30"
+    description: A Helm chart for a experimenting python rest api
+    digest: 6ed620011e262d21e0f1771d5dc280b4591ea327dc3449e84805173fe8073a59
+    name: python-rest-api
+    type: application
+    urls:
+    - python-rest-api-0.1.0.tgz
     version: 0.1.0
   shipping:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-27T14:27:00.845435524+05:30"
+    created: "2025-06-29T16:04:31.827771127+05:30"
     description: A Helm chart for Kubernetes
     digest: 603b589c4433d5196ff2d03c156e3853274a1bee7541757ecbdd2e0e487d1507
     name: shipping
     type: application
     urls:
-    - https://vinukavinnath.github.io/test-artifact/shipping-0.1.0.tgz
+    - shipping-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-27T14:27:00.844835291+05:30"
+generated: "2025-06-29T16:04:31.826410076+05:30"
